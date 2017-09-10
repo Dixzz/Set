@@ -38,4 +38,37 @@
     <string name="sub_deactivate_failed">Deactivation failed.</string>
     <string name="available_sims_title">Available SIM cards</string>
 
+    <!-- About Devillian-OS -->
+    <string name="devillian_about_info">About us</string>
+    <string name="devillian_about_summary">Our introduction and our team</string>
+    <string name="devillian_about_info_summary">Devillian-OS Is Based on GZOSP Which Provides Users Stability Out Of the Box.&#35;BeDevil</string>
+    <string name="dev_info">About devillian-OS</string>
+    <string name="github">Github</string>
+    <string name="github_description">View our source code</string>
+    <string name="telegram">Telegram</string>
+    <string name="telegram_description">Subscribe to our Telegram channel</string>
+    <string name="leads">Team Leads</string>
+    <string name="team_1">Sushant Varma &#40;Devil1804&#41;</string>
+    <string name="team1_description">Owner/Lead Developer</string>
+    <string name="team_2">Rahul Mishra &#40;Beingmishra&#41;</string>
+    <string name="team2_description">Co-Lead and source maintainer</string>
+    <string name="team_3">Satyam Sharma &#40;Shatyam</string>
+    <string name="team3_description">Moderator and an Amateur Developer</string>
+    <string name="team_4">Aryan Kedare &#40;aryankedare&#41;</string>
+    <string name="team4_description">Moderator and Source Tester</string>
+    <string name="designers">Designer</string>
+    <string name="designer_1">Nikhil Parte &#40;nparte77&#41;</string>
+    <string name="designer1_description">UI/UX designer</string>
+    <string name="maintainers">Maintainers</string>
+    <string name="maintainers_title">Official maintainers</string>
+    <string name="maintainers_summary">Officially supported devices and their respective maintainers.</string>
+
+     <!-- Maintainer section -->
+    <string name="maintainer_description">Maintainer: %1$s</string>
+    <string name="loading_devices">Loading devices list...</string>
+    <string name="loading_devices_failed">Failed to load devices list</string>
+    <string name="devices_list_empty">List is empty, tap the icon to reload</string>
+    <string name="reload_list">Reload</string>
+
+
 </resources>
