@@ -14,18 +14,21 @@
  * limitations under the License.
  */
 package com.android.settings.deviceinfo.firmwareversion;
- import android.content.Context;
+import android.content.Context;
 import android.os.SystemProperties;
 import android.support.annotation.VisibleForTesting;
- import com.android.settings.R;
- public class DevilianVersionDialogController {
-     @VisibleForTesting
+import com.android.settings.R;
+public class DevilianVersionDialogController {
+    @VisibleForTesting
+import com.android.settings.R;
+public class DevilianVersionDialogController {
+    @VisibleForTesting
     private static final int DEVILIAN_VERSION_VALUE_ID = R.id.devilian_version;
     private static final String DEVILIAN_VERSION = "devilian_version";
     private static final String DEVILIAN_PROP = "ro.devilian.version";
-     private final FirmwareVersionDialogFragment mDialog;
+    private final FirmwareVersionDialogFragment mDialog;
     private final Context mContext;
-     public DevilianVersionDialogController(FirmwareVersionDialogFragment dialog) {
+    public DevilianVersionDialogController(FirmwareVersionDialogFragment dialog) {
         mDialog = dialog;
         mContext = dialog.getContext();
     }
