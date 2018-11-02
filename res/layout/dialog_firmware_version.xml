@@ -25,6 +25,19 @@
         android:layout_height="match_parent"
         android:padding="@dimen/sim_content_padding">
 
+        <!-- DevilianOS version -->
+        <TextView
+            style="@style/device_info_dialog_label"
+            android:id="@+id/devilian_version_label"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/devilian_version"/>
+        <TextView
+            style="@style/device_info_dialog_value"
+            android:id="@+id/devilian_version"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
         <TextView
             style="@style/device_info_dialog_label"
             android:id="@+id/firmware_version_label"
