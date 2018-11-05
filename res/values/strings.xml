@@ -10080,4 +10080,8 @@
 
     <!-- Title for Connected device shortcut [CHAR LIMIT=30] -->
     <string name="devices_title">Devices</string>
+
+    <!-- Trident -->
+    <string name="trident_title">Trident</string>
+    <string name="trident_summary">Black as the devil, hot as hell...</string>
 </resources>

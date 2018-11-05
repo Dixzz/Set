@@ -3327,5 +3327,19 @@
                  android:permission="android.permission.BIND_JOB_SERVICE" />
 
         <!-- This is the longest AndroidManifest.xml ever. -->
+
+        <activity android:name=".Settings$TridentActivity"
+                  android:label="@string/trident_title"
+                  android:icon="@drawable/ic_settings_trident">
+            <intent-filter android:priority="10">
+                <action android:name="com.android.settings.action.SETTINGS"/>
+            </intent-filter>
+            <meta-data android:name="com.android.settings.category"
+                       android:value="com.android.settings.category.ia.homepage"/>
+            <meta-data android:name="com.android.settings.FRAGMENT_CLASS"
+                       android:value="com.devilian.trident.Trident"/>
+            <meta-data android:name="com.android.settings.summary"
+                       android:resource="@string/trident_summary"/>
+        </activity>
     </application>
 </manifest>
