@@ -3317,6 +3317,7 @@
             </intent-filter>
         </receiver>
 
+
         <service android:name=".fuelgauge.batterytip.AnomalyCleanupJobService"
                  android:permission="android.permission.BIND_JOB_SERVICE" />
 
@@ -3330,7 +3331,7 @@
 
         <activity android:name=".Settings$TridentActivity"
                   android:label="@string/trident_title"
-                  android:icon="@drawable/ic_settings_trident">
+                  android:icon="@drawable/ic_homepage_trident">
             <intent-filter android:priority="10">
                 <action android:name="com.android.settings.action.SETTINGS"/>
             </intent-filter>
