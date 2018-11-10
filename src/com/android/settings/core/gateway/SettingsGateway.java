@@ -153,6 +153,7 @@ public class SettingsGateway {
             SimSettings.class.getName(),
             TetherSettings.class.getName(),
             WifiP2pSettings.class.getName(),
+            WifiTetherSettings.class.getName(),
             BackgroundCheckSummary.class.getName(),
             VpnSettings.class.getName(),
             DateTimeSettings.class.getName(),
@@ -263,7 +264,7 @@ public class SettingsGateway {
             DirectoryAccessDetails.class.getName(),
             ToggleBackupSettingFragment.class.getName(),
             PreviouslyConnectedDeviceDashboardFragment.class.getName(),
-            DevilianExtras.class.getName()
+            Trident.class.getName()
     };
 
     public static final String[] SETTINGS_FOR_RESTRICTED = {

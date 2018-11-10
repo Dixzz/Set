@@ -63,7 +63,6 @@ public class KernelVersionDialogController implements View.OnClickListener {
         mDialog.setText(KERNEL_VERSION_VALUE_ID,
                 DeviceInfoUtils.getFormattedKernelVersion(mDialog.getContext()));
     }
-}
 
     private void registerClickListener() {
         mDialog.registerClickListener(KERNEL_VERSION_VALUE_ID, this /* listener */);

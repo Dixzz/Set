@@ -20,9 +20,6 @@ import android.support.annotation.VisibleForTesting;
 import com.android.settings.R;
 public class DevilianVersionDialogController {
     @VisibleForTesting
-import com.android.settings.R;
-public class DevilianVersionDialogController {
-    @VisibleForTesting
     private static final int DEVILIAN_VERSION_VALUE_ID = R.id.devilian_version;
     private static final String DEVILIAN_VERSION = "devilian_version";
     private static final String DEVILIAN_PROP = "ro.devilian.version";

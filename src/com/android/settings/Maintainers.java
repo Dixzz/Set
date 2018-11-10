@@ -87,7 +87,7 @@ public class Maintainers extends SettingsPreferenceFragment {
 
     @Override
     public int getMetricsCategory() {
-        return MetricsProto.MetricsEvent.EXTENSIONS;
+        return MetricsProto.MetricsEvent.TRIDENT;
     }
 
 
